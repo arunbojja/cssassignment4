@@ -1,0 +1,157 @@
+.a{
+    background:linear-gradient(to right, red,green,yellow);
+    text-decoration: underline;
+    text-align: center;
+}
+.b{
+    text-align: center;
+    background-color:cadetblue;
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px;
+    margin-left: 20%;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: springgreen;
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    border: 3px solid red;
+}
+.box1{
+    background-color:cyan;
+    border-radius: 5px;
+    border: 3px solid red;
+    width: 300px;
+    height: 100px;
+    margin-left: 150px;
+}
+.box2{
+    background-color:cyan;
+    border-radius: 5px;
+    border: 3px solid red;
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+}
+.box3{
+    background-color:cyan;
+    border-radius: 5px;
+    border: 3px solid red;
+    width: 300px;
+    height: 100px;
+    margin-left: 100px;
+}
+.box4{
+    background-color:cyan;
+    border-radius: 5px;
+    border: 3px solid red;
+    width: 300px;
+    height: 100px;
+    margin-left: 555px;
+}
+.c{
+    background:linear-gradient(to right, red,yellow,red);
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-align: center;
+}
+.parent2{
+    display: flex;
+    flex-wrap: wrap;
+    background:radial-gradient( cornflowerblue,green);
+    width: 100%;
+    height: 300px;
+    border: 3px solid red;
+    justify-content:center;
+}
+.card1{
+    text-align: center;
+    color:darkred;
+    text-decoration: underline;
+    background-color:gold;
+    border-radius: 10px;
+    border: 3px solid red;
+    width: 300px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card2{
+    text-align: center;
+    color:darkred;
+    text-decoration: underline;
+    background-color:gold;
+    border-radius: 10px;
+    border: 3px solid red;
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card3{
+    text-align: center;
+    color: darkred;
+    text-decoration: underline;
+    background-color:gold;
+    border-radius: 10px;
+    border: 3px solid red;
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card4{
+    text-align: center;
+    color:darkred;
+    text-decoration: underline;
+    background-color: gold;
+    border-radius: 10px;
+    border: 3px solid red;
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.parent3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.25fr;
+    grid-template-rows: 70px 100px;
+    background: white;
+    color: white;
+    text-align: center;
+    gap: 10px;
+}
+.class1{
+    width: 100%;
+    background:crimson;
+    grid-column: 1/-1;
+}
+.class2{
+    background:lightgreen;
+}
+.class3{
+    background: lightblue;
+}
+.class4{
+    background: indigo;
+}
+.class5{
+    background: black;
+    text-decoration: underline;
+    grid-column: 4;
+    grid-row: 2/4;
+}
+.class6{
+    background: orange;
+    grid-column: 1/4;
+}
+.class7{
+    background: aqua;
+    color: black;
+    grid-column: 1/-1;
+}
